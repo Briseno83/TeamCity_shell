@@ -25,7 +25,7 @@ FOR /L %%G IN (1,1,4) DO %SendKeys% "{TAB}" %SendKeys% "{TAB}"
 
 timeout /t 7
 ::Get-Process chrome | ForEach-Object { $_.CloseMainWindow() | Out-Null}
-taskkill /IM chrome.exe /F
+::taskkill /IM chrome.exe /F
 
 goto :EOF
 

@@ -1,1 +1,1 @@
-eco Helo World# %$#&
+echo Helo World# %$#&
